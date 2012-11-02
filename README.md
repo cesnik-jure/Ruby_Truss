@@ -1,4 +1,4 @@
 Ruby_Truss
 ==========
 
-Ruby on Rails application for calculation of axial forces of trusses via FEM.
+Ruby on Rails BLA BLA BLA application for calculation of axial forces of trusses via FEM.
