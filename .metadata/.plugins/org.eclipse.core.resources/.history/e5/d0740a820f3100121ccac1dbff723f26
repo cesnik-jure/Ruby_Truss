@@ -1,0 +1,64 @@
+require 'matrix.rb'
+require 'matrix/eigenvalue_decomposition.rb'
+
+# Requires all the *.rb files in the same folder directory as this .rb file.
+Dir[File.dirname(__FILE__) + "/*.rb"].each do |file|
+  require file
+end
+
+# Defines a method to change a single element in a matrix row i and collum j in Matrix class.
+class Matrix
+  def []=(i, j, x)
+    @rows[i][j] = x
+  end
+end
+
+
+# Input of all the data and its preparation for the FEM_Engine.rb
+
+vkor = Matrix[[0, 0], [30, 40]] #  coordinates of 
+em = 1000
+a = 5
+vstev = [1, 3]
+
+puts "Start try:"
+
+palica = Ravninska_Palica.new
+ke = palica.ravninska_palica_togostna_m(vkor,em,a)
+kzac = Matrix.build(6) { 2 }
+
+
+class Ravninska_Palica
+  # Defines method dodaj_palico_v_togostno_m_konst 
+  def dodaj_palico_v_togostno_m_konst(ke, vstev, kzac)
+    @k = kzac
+    @i1 = (vstev.fetch(0) - 1) * 2 + 1
+    @i2 = (vstev.fetch(1) - 1) * 2 + 1
+    @mesto_v_k = [@i1, @i1 + 1, @i2, @i2 + 1]
+    
+    for i in 0..3
+      @ii = @mesto_v_k.fetch[i]      
+      for j in 0..3
+        @jj = @mesto_v_k.fetch[j]
+        k.[]=(@ii, @jj, ke.fetch[i, j])
+      end    
+    end
+    
+    return @k  
+  end
+endpalica = Ravninska_Palica.new
+ke = palica.ravninska_palica_togostna_m(vkor,em,a)
+
+ke.mputs
+k.mputs
+
+
+
+
+
+
+
+
+
+
+

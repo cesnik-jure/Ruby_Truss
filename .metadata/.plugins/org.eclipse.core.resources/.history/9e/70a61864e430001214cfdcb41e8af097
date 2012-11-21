@@ -1,0 +1,59 @@
+require 'matrix'
+
+# Puts matrixes in a prettier/more readable form.
+class Matrix
+  def mputs
+    puts self.each_slice(self.column_size) {|r| p r }
+  end
+end
+
+
+# Input of all the data and its preparation for the FEM_Engine.rb
+
+vkor = Matrix[[0,0],[30,40]] #  coordinates
+em = 1000
+a = 5
+
+puts "Start try:"
+
+
+
+class Ravninska_Palica
+  def ravninska_palica_togostna_m(vkor,em,a)
+    @x1 = vkor.[](0,0)
+    @y1 = vkor.[](0,1)
+    @x2 = vkor.[](1,0)
+    @y2 = vkor.[](1,1)
+    
+    @x21 = @x2 - @x1
+    @y21 = @y2 - @y1
+    
+    @ea = em * a
+    
+    @ll = (@x21)**2 + (@y21)**2
+    @l = Math.sqrt( @ll )
+    @lll = @ll * @l
+    
+    @ke = @ea / @lll * Matrix.rows(
+      [[@x21*@x21, @x21*@y21, (-1)*@x21*@x21, (-1)*@x21*@y21],
+      [@y21*@x21, @y21*@y21, (-1)*@y21*@x21, (-1)*@y21*@y21],
+      [(-1)*@x21*@x21, (-1)*@x21*@y21, @x21*@x21, @x21*@y21],
+      [(-1)*@y21*@x21, (-1)*@y21*@y21, @y21*@x21, @y21*@y21]]
+      )
+      
+    return @ke  
+  end
+end
+palica = Ravninska_Palica.new
+ke = palica.ravninska_palica_togostna_m(vkor,em,a)
+
+puts ke
+
+
+
+
+
+
+
+
+
