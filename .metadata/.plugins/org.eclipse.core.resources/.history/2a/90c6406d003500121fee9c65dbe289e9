@@ -1,0 +1,13 @@
+class Square
+  def area(a)
+    @side_length = a
+    puts s
+    @side_length = 2 * @side_length
+    puts a
+    return @side_length
+  end
+end
+
+sq = Square.new
+a = 5
+puts sq.area(a)
