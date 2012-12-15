@@ -1,0 +1,50 @@
+require_relative 'new_methods'
+
+# Open .xml file named truss_name in the Samples/truss_name/ directory.
+truss_name = "Primer 1" 
+file = File.new("Samples/" + truss_name + "/" + truss_name + ".xml", "w")
+xml = Builder::XmlMarkup.new( :target => file, :indent => 2 )
+
+# Populate the .xml file with:
+xml.instruct! :xml, :version => "1.1", :encoding => "UTF-8"
+
+# Create a truss element with name attribute.
+# Truss' child: nodes.
+xml.truss :name => truss_name do
+  
+  # Nodes' child: node.
+  xml.nodes do
+    for n in 1..(nu_node)
+      # Create node element with id attribute. 
+      # Node's children: cooridante_x, cooridante_x, support_x, support_y, force_x, force_y.  
+      xml.node :id => n  do
+        xml.coordinate_x(xy_node.[](n - 1 , 0))
+        xml.coordinate_y(xy_node.[](n - 1, 1))
+        xml.support_x(su.[](n - 1 , 0))
+        xml.support_y(su.[](n - 1, 1))
+        xml.force_x(f.[](n - 1 , 0))
+        xml.force_y(f.[](n - 1, 1))
+      end
+    end
+  end
+  
+  # Elements' child: element.
+  xml.elements do
+    for el in 1..(nu_el)
+      # Create "element" element with id attribute. 
+      # Node's children: coordinate_x, coordinate_x, support_x, support_y, force_x, force_y.  
+      xml.element :id => el  do
+        xml.start_node(el_node.[](el - 1 , 0))
+        xml.end_node(el_node.[](el - 1 , 1))
+        xml.elastic_modulus(em_a.[](el - 1, 0))
+        xml.section_area(em_a.[](el - 1, 1))
+      end
+    end
+  end
+end
+
+file.close
+
+
+
+

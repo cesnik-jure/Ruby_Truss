@@ -17,6 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.xml" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -29,17 +30,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.ruby" name="Module_06.rb" partName="Module_06.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Module_06.rb" title="Module_06.rb" tooltip="Engine/Module_06.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Module_06.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.ruby" name="Load_file.rb" partName="Load_file.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Load_file.rb" title="Load_file.rb" tooltip="Engine/Load_file.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Load_file.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="545" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="Module_07.rb" partName="Module_07.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Module_07.rb" title="Module_07.rb" tooltip="Engine/Module_07.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Module_07.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="735" selectionTopPixel="360"/>
+<editor id="com.aptana.editor.ruby" name="Save_file.rb" partName="Save_file.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Save_file.rb" title="Save_file.rb" tooltip="Engine/Save_file.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Save_file.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="572" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="New_methods.rb" partName="New_methods.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/New_methods.rb" title="New_methods.rb" tooltip="Engine/New_methods.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/New_methods.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="262" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -74,8 +80,12 @@
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Engine">
 <project name="Engine">
+<expanded>
+<element path="/Engine/Samples"/>
+<element path="/Engine/Samples/Primer 1"/>
+</expanded>
 <selection>
-<element path="/Engine/Module_07.rb"/>
+<element path="/Engine/New_methods.rb"/>
 </selection>
 </project>
 </viewState>
@@ -85,7 +95,7 @@
 </view>
 </views>
 <perspectives activePart="com.aptana.editor.ruby" activePerspective="com.aptana.ui.WebPerspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
 <alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
@@ -124,24 +134,35 @@
 <new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="com.aptana.samples.ui.SamplesView"/>
-<view id="com.aptana.snippets.ui.views.SnippetsView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.aptana.explorer.view"/>
-<view id="com.aptana.terminal.views.terminal"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@11be122" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="com.aptana.terminal.views.terminal" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="com.aptana.explorer.view" style="1">
+<fastViews>
+<view id="com.aptana.explorer.view" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@a6997" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="com.aptana.samples.ui.SamplesView" ratio="0.3"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">
-<page content="com.aptana.explorer.view" label="App Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="com.aptana.explorer.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@545b0f" ratio="0.6757576" ratioLeft="446" ratioRight="214" relationship="4" relative="left">
@@ -164,28 +185,20 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11be122" ratio="0.6242424" ratioLeft="412" ratioRight="248" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="com.aptana.terminal.views.terminal" label="Terminal"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="1"/>
-<part id="0"/>
-<part id="2"/>
-</presentation>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11be122" ratio="0.6333333" ratioLeft="418" ratioRight="242" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@a6997" ratio="0.5893939" ratioLeft="389" ratioRight="271" relationship="4" relative="left">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
-<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="2"/>
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -195,165 +208,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Module_06.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Module_05.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/c:/Ruby193/lib/ruby/1.9.1/matrix/eigenvalue_decomposition.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Module_05.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Copy of Module_06.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/c:/Ruby193/lib/ruby/1.9.1/matrix/eigenvalue_decomposition.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Save_file.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" path="/Engine/Samples/truss_sample/truss_sample.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" path="/Engine/Samples/Primer 2/Primer 2.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" path="/Engine/Samples/Primer 1/Primer 1.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Load_file.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Module_07.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Module_07.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Save_file.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" path="/Engine/Samples/Primer 1/Primer 1.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/New_methods.rb"/>
 </editors>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="5466" y="58"/>
+<item historyLabel="Engine.rb" index="1">
+<position info="not_deleted" x="5203" y="17"/>
 </item>
-<item historyLabel="Module_05.rb" index="1">
-<position info="not_deleted" x="237" y="0"/>
+<item historyLabel="Save_file.rb" index="0">
+<position info="not_deleted" x="2484" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="5466" y="58"/>
+<item historyLabel="truss_sample.xml" index="2">
+<position info="not_deleted" x="1019" y="0"/>
 </item>
-<item historyLabel="Module_05.rb" index="1">
-<position info="not_deleted" x="3768" y="0"/>
+<item historyLabel="Save_file.rb" index="0">
+<position info="not_deleted" x="1007" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7059" y="0"/>
+<item historyLabel="Primer 2.xml" index="3">
+<position info="not_deleted" x="771" y="0"/>
 </item>
-<item historyLabel="eigenvalue_decomposition.rb" index="2">
+<item historyLabel="Save_file.rb" index="0">
+<position info="not_deleted" x="1007" y="0"/>
+</item>
+<item historyLabel="Primer 1.xml" index="4">
 <position/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7059" y="0"/>
+<item historyLabel="Save_file.rb" index="0">
+<position info="not_deleted" x="371" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="2663" y="0"/>
+<item historyLabel="Engine.rb" index="1">
+<position info="not_deleted" x="5203" y="17"/>
 </item>
-<item historyLabel="Module_05.rb" index="1">
-<position info="not_deleted" x="3857" y="0"/>
+<item historyLabel="Save_file.rb" index="0">
+<position info="not_deleted" x="0" y="2541"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="2589" y="76"/>
-</item>
-<item historyLabel="Module_05.rb" index="1">
-<position info="not_deleted" x="3857" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="2589" y="74"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7946" y="0"/>
-</item>
-<item historyLabel="Module_05.rb" index="3">
-<position info="not_deleted" x="4577" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="1561" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7936" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7672" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="168" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="26" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
+<item historyLabel="Load_file.rb" index="5">
 <position/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="25" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7019" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7814" y="0"/>
-</item>
-<item historyLabel="eigenvalue_decomposition.rb" index="5">
-<position/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="8341" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="2650" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="2911" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="3657" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="3670" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="6556" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="7170" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="39" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="5443" y="0"/>
-</item>
-<item historyLabel="Copy of Module_06.rb" index="4">
-<position info="not_deleted" x="39" y="0"/>
 </item>
 <item historyLabel="Test.rb" index="6">
-<position info="not_deleted" x="103" y="0"/>
+<position info="not_deleted" x="593" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="5443" y="0"/>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="330" y="25"/>
 </item>
-<item historyLabel="Test.rb" index="6">
-<position info="not_deleted" x="103" y="0"/>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="251" y="26"/>
 </item>
-<item historyLabel="Module_07.rb" index="7">
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="329" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="416" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="781" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="812" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="815" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="815" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="2120" y="0"/>
+</item>
+<item historyLabel="Primer 1.xml" index="4">
+<position info="not_deleted" x="86" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="2120" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="813" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="2120" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="813" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="464" y="0"/>
+</item>
+<item historyLabel="Primer 1.xml" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position/>
+</item>
+<item historyLabel="Engine.rb" index="9">
 <position info="not_deleted" x="262" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="30" y="0"/>
 </item>
-<item historyLabel="Module_07.rb" index="7">
+<item historyLabel="New_methods.rb" index="10">
+<position info="not_deleted" x="62" y="0"/>
+</item>
+<item historyLabel="Engine.rb" index="9">
+<position info="not_deleted" x="1158" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position/>
+</item>
+<item historyLabel="New_methods.rb" index="10">
 <position info="not_deleted" x="262" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="Load_file.rb" index="5">
+<position/>
 </item>
-<item historyLabel="Module_07.rb" index="8">
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="545" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="572" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="5">
+<position info="not_deleted" x="545" y="0"/>
+</item>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="572" y="0"/>
+</item>
+<item historyLabel="Primer 1.xml" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="Save_file.rb" index="7">
+<position info="not_deleted" x="572" y="0"/>
 </item>
-<item historyLabel="Module_07.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="339" y="0"/>
-</item>
-<item historyLabel="Module_07.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Module_06.rb" index="0">
-<position info="not_deleted" x="15" y="0"/>
-</item>
-<item active="true" historyLabel="Module_07.rb" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="New_methods.rb" index="10">
+<position info="not_deleted" x="262" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -361,6 +376,10 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@a6997"/>
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -368,10 +387,47 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@11be122"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="New_methods.rb" tooltip="Engine/New_methods.rb">
+<persistable path="/Engine/New_methods.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Engine.rb" tooltip="Engine/Engine.rb">
+<persistable path="/Engine/Engine.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 1.xml" tooltip="Engine/Samples/Primer 1/Primer 1.xml">
+<persistable path="/Engine/Samples/Primer 1/Primer 1.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Save_file.rb" tooltip="Engine/Save_file.rb">
+<persistable path="/Engine/Save_file.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Test.rb" tooltip="Engine/Test.rb">
+<persistable path="/Engine/Test.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Load_file.rb" tooltip="Engine/Load_file.rb">
+<persistable path="/Engine/Load_file.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 2.xml" tooltip="Engine/Samples/Primer 2/Primer 2.xml">
+<persistable path="/Engine/Samples/Primer 2/Primer 2.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="truss_sample.xml" tooltip="Engine/Samples/truss_sample/truss_sample.xml">
+<persistable path="/Engine/Samples/truss_sample/truss_sample.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Input.rb" tooltip="Engine/Input.rb">
+<persistable path="/Engine/Input.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="my_xml_data_file.xml" tooltip="Engine/my_xml_data_file.xml">
+<persistable path="/Engine/my_xml_data_file.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="truss_02.xml" tooltip="Engine/truss_02.xml">
+<persistable path="/Engine/truss_02.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="truss_01.xml" tooltip="Engine/truss_01.xml">
+<persistable path="/Engine/truss_01.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Module_07.rb" tooltip="Engine/Module_07.rb">
 <persistable path="/Engine/Module_07.rb"/>
 </file>
@@ -380,39 +436,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="eigenvalue_decomposition.rb" tooltip="c:\Ruby193\lib\ruby\1.9.1\matrix\eigenvalue_decomposition.rb">
 <persistable uri="file:/c:/Ruby193/lib/ruby/1.9.1/matrix/eigenvalue_decomposition.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Module_05.rb" tooltip="Engine/Module_05.rb">
-<persistable path="/Engine/Module_05.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="05_Module.rb" tooltip="Engine/05_Module.rb">
-<persistable path="/Engine/05_Module.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Module_04.rb" tooltip="Engine/Module_04.rb">
-<persistable path="/Engine/Module_04.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="vector.rb" tooltip="c:\Ruby193\lib\ruby\1.9.1\tkextlib\blt\vector.rb">
-<persistable uri="file:/c:/Ruby193/lib/ruby/1.9.1/tkextlib/blt/vector.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="03_Module.rb" tooltip="Engine/03_Module.rb">
-<persistable path="/Engine/03_Module.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Module_01.rb" tooltip="Engine/Module_01.rb">
-<persistable path="/Engine/Module_01.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="01_Module.rb" tooltip="Engine/01_Module.rb">
-<persistable path="/Engine/01_Module.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="02_Module.rb" tooltip="Engine/02_Module.rb">
-<persistable path="/Engine/02_Module.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="FEM_Engine.rb" tooltip="Engine/FEM_Engine.rb">
-<persistable path="/Engine/FEM_Engine.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Input.rb" tooltip="Engine/Input.rb">
-<persistable path="/Engine/Input.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Input.rb" tooltip="C:\Users\Cesko\Dropbox\Backup Baby\Projekti\Git-Hub\Ruby_Truss\Input.rb">
-<persistable uri="file:/C:/Users/Cesko/Dropbox/Backup%20Baby/Projekti/Git-Hub/Ruby_Truss/Input.rb"/>
 </file>
 </mruList>
 </workbench>

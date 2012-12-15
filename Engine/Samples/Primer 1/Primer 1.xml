@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<truss name="Primer 1">
+  <nodes nu_node="4">
+    <node id="1">
+      <coordinate_x>-4</coordinate_x>
+      <coordinate_y>3</coordinate_y>
+      <support_x>1</support_x>
+      <support_y>1</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="2">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>3</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>-80</force_y>
+    </node>
+    <node id="3">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>3</coordinate_y>
+      <support_x>1</support_x>
+      <support_y>1</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="4">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>0</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+  </nodes>
+  <elements nu_el="5">
+    <element id="1">
+      <start_node>1</start_node>
+      <end_node>2</end_node>
+      <elastic_modulus>3000</elastic_modulus>
+      <section_area>2</section_area>
+    </element>
+    <element id="2">
+      <start_node>2</start_node>
+      <end_node>3</end_node>
+      <elastic_modulus>3000</elastic_modulus>
+      <section_area>2</section_area>
+    </element>
+    <element id="3">
+      <start_node>1</start_node>
+      <end_node>4</end_node>
+      <elastic_modulus>3000</elastic_modulus>
+      <section_area>2</section_area>
+    </element>
+    <element id="4">
+      <start_node>2</start_node>
+      <end_node>4</end_node>
+      <elastic_modulus>3000</elastic_modulus>
+      <section_area>2</section_area>
+    </element>
+    <element id="5">
+      <start_node>3</start_node>
+      <end_node>4</end_node>
+      <elastic_modulus>3000</elastic_modulus>
+      <section_area>2</section_area>
+    </element>
+  </elements>
+</truss>

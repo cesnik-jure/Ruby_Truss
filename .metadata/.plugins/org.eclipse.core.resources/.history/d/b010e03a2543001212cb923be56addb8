@@ -1,0 +1,20 @@
+require_relative 'new_methods'
+require 'rexml/document'
+include REXML
+
+# Open .xml file named truss_name in the Samples/truss_name/ directory.
+truss_name = "Primer 1" 
+file = File.new("Samples/" + truss_name + "/" + truss_name + ".xml", "r")
+
+doc = Document.new(file)
+# puts doc
+
+XPath.each( doc, "*/title") { |element|
+    puts element.text
+}
+
+file.close
+
+
+
+

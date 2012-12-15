@@ -1,0 +1,30 @@
+require_relative 'new_methods'
+
+require 'matrix'
+require 'matrix/eigenvalue_decomposition.rb'
+
+require 'rubygems'
+require 'builder'
+
+builder = Builder::XmlMarkup.new(:target => STDOUT, :indent => 2)
+xml = builder.person { |b| b.name("Jim"); b.phone("555-1234") }
+
+puts builder.class 
+puts xml.class
+
+puts "-----Start try:------"
+puts
+
+truss_name = "truss_02"
+
+
+file = File.new(truss_name + ".xml", "w")
+file.write(xml)   
+file.close
+
+File.open(truss_name + ".xml", "r").each_line do |line|
+  puts line
+end
+
+
+
