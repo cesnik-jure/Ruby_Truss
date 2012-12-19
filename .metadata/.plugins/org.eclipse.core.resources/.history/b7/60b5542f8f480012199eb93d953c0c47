@@ -1,0 +1,35 @@
+class Truss
+  puts "Truss"
+  
+  @instance = "truss instance"
+  @@class = "truss class"
+  
+  puts @instance
+  puts defined? @instance
+  puts @@class
+  puts defined? @@class
+  
+  class Element
+  
+    puts "Element"
+    
+    @instance = "element instance"
+    @@class = "element class"
+    
+    puts @instance
+    puts defined? @instance
+    puts @@class
+    puts defined? @@class
+  
+  end
+
+end
+
+puts "out"
+
+puts @instance
+puts defined? @instance
+puts @@class
+puts defined? @@class
+
+puts "end"

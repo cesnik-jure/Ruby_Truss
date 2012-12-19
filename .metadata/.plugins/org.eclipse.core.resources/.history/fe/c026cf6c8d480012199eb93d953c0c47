@@ -1,0 +1,11 @@
+class Truss
+  
+  @@truss = 1
+  puts defined? @@truss
+  class Element
+    puts "Element"
+    puts defined? @@truss
+  end
+end
+
+puts defined? @@truss

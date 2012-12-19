@@ -5,16 +5,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="wholeword"/>
-		<item value="el_node" key="selection"/>
+		<item value="to_ary" key="selection"/>
 		<list key="findhistory">
-			<item value="el_node"/>
-			<item value="plane_element_axial_force"/>
-			<item value="truss_axial_forces"/>
-			<item value="add_element_in_the_truss_stiffness_m"/>
-			<item value="k"/>
-			<item value="array"/>
-			<item value="k_e"/>
-			<item value="ips"/>
+			<item value="to_ary"/>
+			<item value="em_a"/>
+			<item value="k_s"/>
+			<item value="plane_element_stiffness_m"/>
+			<item value="truss_stiffness_m"/>
+			<item value="xy_node"/>
+			<item value="section_areas"/>
+			<item value="elastic_modules"/>
 		</list>
 	</section>
 </section>
