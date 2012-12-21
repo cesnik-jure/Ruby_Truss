@@ -1,0 +1,56 @@
+$main_path = File.dirname(__FILE__)
+
+require("#{$main_path}/new_methods")
+
+
+$truss_name = "Primer 1"
+  
+require("#{$main_path}/Load_file")
+
+
+class Plane_Truss
+  
+  puts "-----Input data-----"
+  puts "Global coordinates of nodes (xy_node)."
+  xy_node.mputs
+  puts "Supports of nodes (su)."
+  su.mputs
+  puts "Forces on the nodes (f)."
+  f.mputs
+  puts "Numbers of start and end nodes of elements (el_node)."
+  el_node.mputs
+  puts "Elastic modulus and cross sections of elements (em_a)."
+  em_a.mputs  
+  
+  puts "-----FEM Calculation results-----"
+  
+  require("#{$main_path}/Engine")
+  
+  # Calculate truss stiffness matrix.
+  truss_stiffness_m
+  
+  # Reduce the truss stiffness matrix (preparation for martix multiplicaiton).
+  reduced_truss_stiffness_m
+  
+  # Reduce the forces array and put it into column vector form (preparation for martix multiplicaiton).
+  reduced_forces_v
+  
+  # Calculate the displacements of nodes. 
+  @d = @k_r.inverse * @f_r
+  puts "Displacements of nodes (d)."
+  @d.mputs
+  
+  # Calculate the reactions in truss supports.
+  @f_v = @f
+  @r = @k * @d - @f_v
+  
+  @r.each { |el| el.abs < 10 ** (-5) ? 0 : el }
+  puts "Reactions in truss supports (r)."
+  @r.mputs
+  
+  # Calculate the axial forces in truss elements.
+  truss_axial_forces
+  puts "Axial forces in truss elements (v_f)."
+  @v_f.mputs
+ 
+end

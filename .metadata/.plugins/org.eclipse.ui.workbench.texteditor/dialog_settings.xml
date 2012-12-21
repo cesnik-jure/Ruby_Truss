@@ -2,19 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
-		<item value="to_ary" key="selection"/>
+		<item value="$main_path" key="selection"/>
 		<list key="findhistory">
-			<item value="to_ary"/>
-			<item value="em_a"/>
-			<item value="k_s"/>
-			<item value="plane_element_stiffness_m"/>
-			<item value="truss_stiffness_m"/>
+			<item value="$main_path"/>
+			<item value="reduced_truss_stiffness_m"/>
+			<item value="plane_element_axial_force"/>
 			<item value="xy_node"/>
-			<item value="section_areas"/>
-			<item value="elastic_modules"/>
+			<item value="el_node"/>
+			<item value="@el_node"/>
+			<item value="truss_axial_forces"/>
+			<item value="to_ary"/>
 		</list>
 	</section>
 </section>

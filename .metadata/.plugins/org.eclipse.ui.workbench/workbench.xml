@@ -31,26 +31,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="com.aptana.editor.ruby" name="Load_file.rb" partName="Load_file.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Load_file.rb" title="Load_file.rb" tooltip="Engine/Load_file.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Load_file.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="781" selectionTopPixel="240"/>
-</editor>
-<editor id="com.aptana.editor.ruby" name="Test.rb" partName="Test.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Test.rb" title="Test.rb" tooltip="Engine/Test.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Test.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="121" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="Engine.rb" partName="Engine.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Engine.rb" title="Engine.rb" tooltip="Engine/Engine.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Engine.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6808" selectionTopPixel="3555"/>
+<editorState selectionHorizontalPixel="0" selectionLength="47" selectionOffset="1025" selectionTopPixel="240"/>
 </editor>
 <editor id="com.aptana.editor.ruby" name="Engine.rb" partName="Engine.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Engine.rb" title="Engine.rb" tooltip="Engine/Engine.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Engine.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4442" selectionTopPixel="2070"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5357" selectionTopPixel="2244"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="Output.rb" partName="Output.rb" path="C:/Users/Cesko/Dropbox/Backup Baby/Projekti/Git-Hub/Ruby_Truss/Engine/Output.rb" title="Output.rb" tooltip="Engine/Output.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Engine/Output.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="618" selectionTopPixel="225"/>
 </editor>
 </editors>
 <views>
@@ -86,7 +81,7 @@
 <element path="/Engine/Samples"/>
 </expanded>
 <selection>
-<element path="/Engine"/>
+<element path="/Engine/Engine.rb"/>
 </selection>
 </project>
 </viewState>
@@ -95,7 +90,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.ruby" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -167,7 +162,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19982994" ratioLeft="235" ratioRight="941" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.14972848" ratioLeft="193" ratioRight="1096" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.65909094" ratioLeft="435" ratioRight="225" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
@@ -175,7 +170,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11be122" ratio="0.69848484" ratioLeft="461" ratioRight="199" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11be122" ratio="0.58181816" ratioLeft="384" ratioRight="276" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.aptana.terminal.views.terminal" label="Terminal"/>
@@ -206,170 +201,171 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Load_file.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Input.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Save_file.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" path="/Engine/Samples/Primer 3/Primer 3.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Run.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/New_methods.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Load_file.rb"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine_01.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Engine.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Load_file.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/New_methods.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test_variables.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Test_copy matrix.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Input.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/New_methods.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Run.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Output.rb"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" path="/Engine/Run.rb"/>
 </editors>
-<item historyLabel="Input.rb" index="1">
-<position info="not_deleted" x="116" y="0"/>
-</item>
-<item historyLabel="Save_file.rb" index="2">
-<position info="not_deleted" x="1837" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="0">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="0">
-<position info="not_deleted" x="3304" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="0">
-<position info="not_deleted" x="3847" y="0"/>
-</item>
-<item historyLabel="Test.rb" index="4">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="Primer 3.xml" index="5">
-<position info="not_deleted" x="371" y="0"/>
-</item>
-<item historyLabel="Test.rb" index="4">
-<position info="not_deleted" x="226" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="0">
-<position info="not_deleted" x="3957" y="0"/>
-</item>
-<item historyLabel="Save_file.rb" index="2">
-<position info="not_deleted" x="1837" y="0"/>
-</item>
-<item historyLabel="Input.rb" index="1">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="Run.rb" index="6">
-<position info="not_deleted" x="0" y="75"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
+<item historyLabel="Engine_01.rb" index="0">
 <position/>
 </item>
-<item historyLabel="New_methods.rb" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
+<item historyLabel="Engine_01.rb" index="0">
 <position/>
 </item>
-<item historyLabel="Run.rb" index="6">
-<position info="not_deleted" x="0" y="75"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
-<position info="not_deleted" x="109" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="148" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
-<position info="not_deleted" x="105" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="148" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="3">
-<position info="not_deleted" x="464" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="559" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="559" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="9">
-<position info="not_deleted" x="149" y="378"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="4190" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="9">
-<position info="not_deleted" x="81" y="24"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="4190" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="9">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="148" y="0"/>
-</item>
-<item historyLabel="Engine.rb" index="9">
-<position info="not_deleted" x="581" y="0"/>
-</item>
-<item historyLabel="Engine_01.rb" index="10">
-<position/>
-</item>
-<item historyLabel="Test.rb" index="11">
-<position info="not_deleted" x="121" y="0"/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="4187" y="0"/>
-</item>
-<item historyLabel="Engine_01.rb" index="10">
-<position/>
-</item>
-<item historyLabel="Load_file.rb" index="8">
-<position info="not_deleted" x="781" y="0"/>
-</item>
-<item historyLabel="Engine_01.rb" index="10">
-<position/>
-</item>
-<item historyLabel="Engine_01.rb" index="10">
-<position/>
-</item>
-<item historyLabel="Engine.rb" index="12">
+<item historyLabel="Engine.rb" index="2">
 <position info="not_deleted" x="6769" y="23"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="7718" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position/>
 </item>
-<item historyLabel="Engine.rb" index="12">
+<item historyLabel="Engine.rb" index="2">
 <position info="not_deleted" x="4442" y="0"/>
 </item>
-<item historyLabel="Test.rb" index="11">
+<item historyLabel="Test.rb" index="1">
 <position info="not_deleted" x="121" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="2676" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="4053" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="4581" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="7217" y="0"/>
 </item>
-<item historyLabel="Engine_01.rb" index="10">
+<item historyLabel="Engine_01.rb" index="0">
 <position info="not_deleted" x="7206" y="0"/>
 </item>
-<item active="true" historyLabel="Engine.rb" index="13">
+<item historyLabel="Engine.rb" index="3">
 <position info="not_deleted" x="6808" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="4">
+<position info="not_deleted" x="1025" y="47"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position/>
+</item>
+<item historyLabel="Test.rb" index="5">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="5030" y="0"/>
+</item>
+<item historyLabel="New_methods.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Load_file.rb" index="4">
+<position info="not_deleted" x="1025" y="47"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="5030" y="0"/>
+</item>
+<item historyLabel="Test.rb" index="7">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="Test_variables.rb" index="8">
+<position info="not_deleted" x="247" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="362" y="0"/>
+</item>
+<item historyLabel="Input.rb" index="10">
+<position info="not_deleted" x="96" y="60"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="362" y="0"/>
+</item>
+<item historyLabel="Input.rb" index="10">
+<position info="not_deleted" x="88" y="0"/>
+</item>
+<item historyLabel="New_methods.rb" index="11">
+<position info="not_deleted" x="0" y="62"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="Run.rb" index="12">
+<position info="not_deleted" x="0" y="75"/>
+</item>
+<item historyLabel="Input.rb" index="10">
+<position info="not_deleted" x="88" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="242" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="Test_copy matrix.rb" index="9">
+<position info="not_deleted" x="316" y="0"/>
+</item>
+<item historyLabel="Run.rb" index="12">
+<position info="not_deleted" x="0" y="75"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="4868" y="0"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="5535" y="0"/>
+</item>
+<item historyLabel="Output.rb" index="13">
+<position/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="5062" y="0"/>
+</item>
+<item historyLabel="Output.rb" index="13">
+<position info="not_deleted" x="41" y="10"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="1" y="0"/>
+</item>
+<item historyLabel="Output.rb" index="13">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Output.rb" index="13">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="Run.rb" index="14">
+<position info="not_deleted" x="0" y="75"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="58" y="17"/>
+</item>
+<item historyLabel="Output.rb" index="13">
+<position info="not_deleted" x="620" y="165"/>
+</item>
+<item historyLabel="Engine.rb" index="3">
+<position info="not_deleted" x="5357" y="0"/>
+</item>
+<item active="true" historyLabel="Output.rb" index="13">
+<position info="not_deleted" x="620" y="165"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -388,6 +384,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Output.rb" tooltip="Engine/Output.rb">
+<persistable path="/Engine/Output.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Run.rb" tooltip="Engine/Run.rb">
+<persistable path="/Engine/Run.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="New_methods.rb" tooltip="Engine/New_methods.rb">
+<persistable path="/Engine/New_methods.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Input.rb" tooltip="Engine/Input.rb">
+<persistable path="/Engine/Input.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Test_copy matrix.rb" tooltip="Engine/Test_copy matrix.rb">
+<persistable path="/Engine/Test_copy matrix.rb"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Engine_01.rb" tooltip="Engine/Engine_01.rb">
 <persistable path="/Engine/Engine_01.rb"/>
 </file>
@@ -399,12 +410,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Load_file.rb" tooltip="Engine/Load_file.rb">
 <persistable path="/Engine/Load_file.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="New_methods.rb" tooltip="Engine/New_methods.rb">
-<persistable path="/Engine/New_methods.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Run.rb" tooltip="Engine/Run.rb">
-<persistable path="/Engine/Run.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 3.xml" tooltip="Engine/Samples/Primer 3/Primer 3.xml">
 <persistable path="/Engine/Samples/Primer 3/Primer 3.xml"/>
@@ -418,20 +423,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 4.xml" tooltip="Engine/Samples/Primer 4/Primer 4.xml">
 <persistable path="/Engine/Samples/Primer 4/Primer 4.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Input.rb" tooltip="Engine/Input.rb">
-<persistable path="/Engine/Input.rb"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 1.xml" tooltip="Engine/Samples/Primer 1/Primer 1.xml">
 <persistable path="/Engine/Samples/Primer 1/Primer 1.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.ruby" name="Save_file.rb" tooltip="Engine/Save_file.rb">
 <persistable path="/Engine/Save_file.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="Primer 2.xml" tooltip="Engine/Samples/Primer 2/Primer 2.xml">
-<persistable path="/Engine/Samples/Primer 2/Primer 2.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml" name="truss_sample.xml" tooltip="Engine/Samples/truss_sample/truss_sample.xml">
-<persistable path="/Engine/Samples/truss_sample/truss_sample.xml"/>
 </file>
 </mruList>
 </workbench>
