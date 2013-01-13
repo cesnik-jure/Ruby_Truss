@@ -1,3 +1,0 @@
-FIND_BAR_DECORATOR_FIND_ENTRIES=\#\r\n\#Fri Dec 21 01\:45\:43 CET 2012\r\n8\=em_a\r\n7\=to_ary\r\n6\=truss_axial_forces\r\n5\=@el_node\r\n4\=el_node\r\n3\=xy_node\r\n2\=plane_element_axial_force\r\n1\=reduced_truss_stiffness_m\r\n0\=$main_path\r\n
-FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\r\n\#Tue Dec 18 00\:12\:15 CET 2012\r\n19\=node_i\r\n18\=node_j\r\n17\=nu_el\r\n16\=el_node\r\n15\=xy_node\r\n14\=su_dof\r\n13\=i_dof\r\n12\=k_el\r\n11\=@instance_var\r\n10\=@@class_var\r\n9\=$coordinates_x\r\n8\=$coordinates_y\r\n7\=$supports_x\r\n6\=$supports_y\r\n5\=$forces_x\r\n4\=$forces_y\r\n3\=$start_nodes\r\n2\=$end_nodes\r\n1\=$elastic_modules\r\n0\=$section_areas\r\n
-eclipse.preferences.version=1

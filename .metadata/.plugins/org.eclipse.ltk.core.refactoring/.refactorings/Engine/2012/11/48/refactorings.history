@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Engine/05_Module.rb&apos; to &apos;Module_05.rb&apos;" description="Rename resource &apos;05_Module.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="05_Module.rb" name="Module_05.rb" stamp="1353455703937" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Engine/Copy of Module_06.rb&apos; to &apos;Test.rb&apos;" description="Rename resource &apos;Copy of Module_06.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Copy of Module_06.rb" name="Test.rb" stamp="1353631921421" updateReferences="true"/>
-</session>

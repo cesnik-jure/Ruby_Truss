@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <truss name="Primer 2">
-  <nodes>
+  <nodes nu_node="3">
     <node id="1">
       <coordinate_x>0</coordinate_x>
       <coordinate_y>0</coordinate_y>
@@ -26,7 +26,7 @@
       <force_y>0</force_y>
     </node>
   </nodes>
-  <elements>
+  <elements nu_el="3">
     <element id="1">
       <start_node>1</start_node>
       <end_node>2</end_node>

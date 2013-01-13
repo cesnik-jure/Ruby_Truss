@@ -1,6 +1,0 @@
-$main_path = File.dirname(__FILE__)
-
-require("#{$main_path}/new_methods")
-
-require("#{$main_path}/input")
-require("#{$main_path}/save_file")

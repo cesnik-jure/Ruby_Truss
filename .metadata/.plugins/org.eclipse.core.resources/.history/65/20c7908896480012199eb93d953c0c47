@@ -1,7 +1,0 @@
-require_relative "new_methods"
-
-matrika = [[1,2], [3,4], [4,5]]
-
-matrika-mputs
-
-
