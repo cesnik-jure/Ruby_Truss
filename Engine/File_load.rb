@@ -25,15 +25,7 @@ elements = root.elements["elements"]
 $nu_el = elements.attributes["nu_el"].to_i
 
 class Plane_Truss
-  
-  # Defines self methods for calling the instance variables inside the Plane_Truss class and its subclasses.
-  def self.xy_node; @xy_node end
-  def self.su; @su end
-  def self.f; @f end
-  def self.em_a; @em_a end
-  def self.el_node; @el_node end
-      
-  class Graphics < Plane_Truss
+  class Graphics
     # Create corresponding empty matrixes (filled with 0s) for all the required data in Graphics class.
     @xy_node = Matrix.build($nu_node, 2) {|row, col| 0 } 
     @su = Matrix.build($nu_node, 2) {|row, col| 0 }
@@ -41,7 +33,6 @@ class Plane_Truss
     @em_a = Matrix.build($nu_el, 2) {|row, col| 0 }
     @el_node = Matrix.build($nu_el, 2) {|row, col| 0 }  
   end
-  
 end
 
 
@@ -79,7 +70,6 @@ class Plane_Truss
         @em_a.[]=(i, j, (j == 0 ? $elastic_modules[i].to_s.to_f : $section_areas[i].to_s.to_f))
       end
     end
-   Graphics.xy_node
   end
   
   # Writes new xy_node, em_a, el_node matrixes for engine.rb in Plane_Truss class. 
@@ -117,8 +107,6 @@ class Plane_Truss
   end
   
 end
-
-
 
 file.close
 

@@ -2,7 +2,7 @@
 
 class Plane_Truss
   class Graphics
-  
+     
     # Global coordinates of nodes.
     # Input shape: @xy_node = Matrix[[1st node coordinates], [2nd node coordinates], ... , [last node coordinates]]
     # @xy_node = Matrix[[0,0], [4,0], [9,0], [13,0], [4,4], [9,4]]

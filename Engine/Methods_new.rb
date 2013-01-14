@@ -13,4 +13,29 @@ class Matrix
   def mputs
     puts self.each_slice(self.column_size) {|r| p r }
   end
+
+end
+
+
+class Plane_Truss
+  # Defines self methods for calling the instance variables inside the Plane_Truss class.
+  def self.xy_node; @xy_node end
+  def self.su; @su end
+  def self.f; @f end
+  def self.em_a; @em_a end
+  def self.el_node; @el_node end
+  def self.d; @d end
+  def self.r; @r end
+  def self.v_f; @v_f end
+  
+  class Graphics
+    # Defines self methods for calling the instance variables inside the Plane_Truss::Graphics class.
+    def self.xy_node; @xy_node end
+    def self.su; @su end
+    def self.f; @f end
+    def self.em_a; @em_a end
+    def self.el_node; @el_node end
+ 
+  end
+  
 end

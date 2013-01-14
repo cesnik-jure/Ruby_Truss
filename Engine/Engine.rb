@@ -1,6 +1,4 @@
 # Opens Plane_Truss class and defines new methods in it.
-puts "Inside engine"
-
 class Plane_Truss
 
   # Defines method plane_element_stiffness_m which calculates the stiffness matrix of an element in its local coordinate system.
@@ -166,7 +164,7 @@ class Plane_Truss
   @r = @k * @d - @f_v
   # Calculate the axial forces in truss elements.
   truss_axial_forces
-  
+   
 end
 
 

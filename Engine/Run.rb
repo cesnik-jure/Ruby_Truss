@@ -16,8 +16,13 @@ Mentor: doc. dr. Matevz Dolenc
 ---------------------------------------------------------------------
 
 
-Starting Ruby Truss program.
-  
+Starting Ruby Truss program. Please read the following instructions:
+
+  /\\_/\\       The kitty on the left is Toby. He will help you use
+ ( ^.^ )      Ruby Truss, but you have to take good care of him.
+  > . <       Make him a happy kitty and he'll make you a happy user
+              of Ruby Truss.
+              
 }
 
 quit = false
@@ -34,9 +39,9 @@ until quit == true
     puts "File name of the truss:"
     $truss_name = gets.chomp
     
-    require("#{$main_path}/data_input")
-    require("#{$main_path}/data_output")
-    require("#{$main_path}/file_save")
+    load("#{$main_path}/data_input.rb")
+    load("#{$main_path}/data_output.rb")
+    load("#{$main_path}/file_save.rb")
     end
     
     choice = ""
@@ -48,9 +53,9 @@ until quit == true
     $truss_name = gets.chomp
     end
     
-    require("#{$main_path}/file_load") 
-    require("#{$main_path}/data_output")
-    
+    load("#{$main_path}/file_load.rb") 
+    load("#{$main_path}/data_output.rb")
+        
     choice = ""
  
   when "3"
@@ -60,9 +65,9 @@ until quit == true
     $truss_name = gets.chomp
     end
     
-    require("#{$main_path}/file_load")
-    require("#{$main_path}/engine")
-    require("#{$main_path}/results_output")
+    load("#{$main_path}/file_load.rb")
+    load("#{$main_path}/engine.rb")
+    load("#{$main_path}/results_output.rb")
     
     choice = ""
     
@@ -73,7 +78,7 @@ until quit == true
       
   when "5"
     puts %{      
-  /\\_/\\       This kitty is sad to see you go...
+  /\\_/\\       Toby is sad to see you go...
  ( o.o )      Do you really want to exit? [Y/anykey]
   > ^ <
   
@@ -81,7 +86,7 @@ until quit == true
     
     if gets.chomp == ("y" or "Y")
       puts %{      
-  /\\_/\\       Poor kitty...
+  /\\_/\\       Poor Toby, he was such a good kitty...
  ( x.x )      The program will terminate in 5 seconds.
   > ^ <
   
@@ -90,20 +95,15 @@ until quit == true
       quit = true
     else
       puts %{      
-  /\\_/\\       Kitty is happy.
+  /\\_/\\       Toby is happy.
  ( ^.^ )      
   > v <
-  
-(The program will still terminate in 10 seconds.)  
-  
       }
-    
-      sleep 10
-      quit = true
+      
     end
     
-    quit = true
-    
+  choice = ""
+        
   else
         
     puts %{
