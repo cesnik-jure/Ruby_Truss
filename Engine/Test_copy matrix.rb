@@ -1,10 +1,11 @@
 $main_path = File.dirname(__FILE__)
 
-require("#{$main_path}/new_methods")
+require("#{$main_path}/methods_new")
 
 
 
 original = Matrix[[0,0], [4,0], [9,0], [13,0], [4,4], [9,4]]
+
 puts "original:"
 puts original.object_id
 original.mputs

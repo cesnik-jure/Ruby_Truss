@@ -35,7 +35,6 @@ class Plane_Truss
     def self.f; @f end
     def self.em_a; @em_a end
     def self.el_node; @el_node end
- 
   end
   
 end
