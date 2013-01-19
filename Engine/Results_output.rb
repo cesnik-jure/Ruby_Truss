@@ -23,14 +23,14 @@ class Plane_Truss
     puts "\n-----FEM Calculation results-----\n"
     
     puts "Displacements of nodes (d) in [m]."
-    d = @d.collect { |e| e.round(5) }
-    d.mputs
+    @d = @d.collect { |e| e.round(5) }
+    @d.mputs
     puts "Reactions in truss supports (r) in [kN]."
-    r = @r.collect { |e| e.round(2) }
-    r.mputs
+    @r = @r.collect { |e| e.round(2) }
+    @r.mputs
     puts "Axial forces in truss elements (v_f) in [kN]."
-    v_f = @v_f.collect { |e| e.round(2) }
-    v_f.mputs
+    @v_f = @v_f.collect { |e| e.round(2) }
+    @v_f.mputs
     
   end 
 end

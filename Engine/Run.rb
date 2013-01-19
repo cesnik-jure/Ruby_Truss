@@ -1,6 +1,7 @@
 $main_path = File.dirname(__FILE__)
 
 require("#{$main_path}/methods_new")
+require("#{$main_path}/methods_new_graphics")
 
 puts %{--- RUBY TRUSS ---
   
@@ -25,12 +26,12 @@ Starting Ruby Truss program. Please read the following instructions:
               
 }
 
-quit = false
-choice = ""
+$quit = false
+$choice = ""
 
-until quit == true
+until $quit == true
    
-  case choice
+  case $choice
     
   when "1"
     $truss_name = ""
@@ -42,9 +43,11 @@ until quit == true
     load("#{$main_path}/data_input.rb")
     load("#{$main_path}/data_output.rb")
     load("#{$main_path}/file_save.rb")
+    load("#{$main_path}/model_draw_normal.rb")
+        
     end
     
-    choice = ""
+    $choice = ""
     
   when "2"
     $truss_name = ""
@@ -55,8 +58,9 @@ until quit == true
     
     load("#{$main_path}/file_load.rb") 
     load("#{$main_path}/data_output.rb")
+    load("#{$main_path}/model_draw_normal.rb")
         
-    choice = ""
+    $choice = ""
  
   when "3"
     $truss_name = ""
@@ -68,15 +72,12 @@ until quit == true
     load("#{$main_path}/file_load.rb")
     load("#{$main_path}/engine.rb")
     load("#{$main_path}/results_output.rb")
+    load("#{$main_path}/model_draw_displacements.rb")
+    load("#{$main_path}/model_draw_forces.rb")
     
-    choice = ""
+    $choice = ""
     
   when "4"
-    puts "TO BE..."
-    sleep 5
-    quit = true
-      
-  when "5"
     puts %{      
   /\\_/\\       Toby is sad to see you go...
  ( o.o )      Do you really want to exit? [Y/anykey]
@@ -92,7 +93,7 @@ until quit == true
   
       }
       sleep 5
-      quit = true
+      $quit = true
     else
       puts %{      
   /\\_/\\       Toby is happy.
@@ -102,7 +103,7 @@ until quit == true
       
     end
     
-  choice = ""
+  $choice = ""
         
   else
         
@@ -110,12 +111,11 @@ until quit == true
 Choose one of the following options:
 1 - Create and save a new example. 
 2 - Open an existing example and examine it.
-3 - Run an analysis of a defined example.
-4 - View results of an analysis.
-5 - Exit the program.
+3 - Run an analysis of a defined example and show results.
+4 - Exit the program.
       }
     
-    choice = gets.chomp
+    $choice = gets.chomp
     redo
   end
 
