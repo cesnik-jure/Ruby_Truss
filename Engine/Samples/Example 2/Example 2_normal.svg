@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="721.0" height="721.0" version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+<line x1="80" y1="80" x2="80" y2="720" style="stroke:gray;"/><line x1="160" y1="80" x2="160" y2="720" style="stroke:gray;"/><line x1="240" y1="80" x2="240" y2="720" style="stroke:gray;"/><line x1="320" y1="80" x2="320" y2="720" style="stroke:gray;"/><line x1="400" y1="80" x2="400" y2="720" style="stroke:gray;"/><line x1="480" y1="80" x2="480" y2="720" style="stroke:gray;"/><line x1="560" y1="80" x2="560" y2="720" style="stroke:gray;"/><line x1="640" y1="80" x2="640" y2="720" style="stroke:gray;"/><line x1="720" y1="80" x2="720" y2="720" style="stroke:gray;"/><line x1="0" y1="80" x2="720" y2="80" style="stroke:gray;"/><line x1="0" y1="160" x2="720" y2="160" style="stroke:gray;"/><line x1="0" y1="240" x2="720" y2="240" style="stroke:gray;"/><line x1="0" y1="320" x2="720" y2="320" style="stroke:gray;"/><line x1="0" y1="400" x2="720" y2="400" style="stroke:gray;"/><line x1="0" y1="480" x2="720" y2="480" style="stroke:gray;"/><line x1="0" y1="560" x2="720" y2="560" style="stroke:gray;"/><line x1="0" y1="640" x2="720" y2="640" style="stroke:gray;"/><line x1="0" y1="720" x2="720" y2="720" style="stroke:gray;"/><line x1="80" y1="640" x2="160" y2="640" style="stroke:black;stroke-width:2;"/><polyline points="150,635 160,640 150,645" style="stroke:black;stroke-width:2;fill:black;"/><text x="120" y="630" font-family="Verdana" font-size="12" style="fill:black;text-anchor:middle;"><tspan x="120" dy="0em">1 m</tspan></text><line x1="80" y1="640" x2="80" y2="560" style="stroke:black;stroke-width:2;"/><polyline points="75,570 80,560 85,570" style="stroke:black;stroke-width:2;fill:black;"/><text x="90" y="600" font-family="Verdana" font-size="12" style="fill:black;text-anchor:start;"><tspan x="90" dy="0em">1 m</tspan></text><text x="80" y="50" font-family="Verdana" font-size="20" style="font-weight:bold;fill:black;text-anchor:start;"><tspan x="80" dy="0em">Model of Example 2 truss:</tspan></text><line x1="160.0" y1="560.0" x2="160.0" y2="160.0" style="stroke:black;stroke-width:2;"/><text x="138.0" y="360.0" font-family="Verdana" font-size="12" style="fill:black;text-anchor:middle;"><tspan x="138.0" dy="0em">(1)</tspan></text><line x1="160.0" y1="160.0" x2="560.0" y2="560.0" style="stroke:black;stroke-width:2;"/><text x="375.55634918610406" y="344.44365081389594" font-family="Verdana" font-size="12" style="fill:black;text-anchor:middle;"><tspan x="375.55634918610406" dy="0em">(2)</tspan></text><line x1="160.0" y1="560.0" x2="560.0" y2="560.0" style="stroke:black;stroke-width:2;"/><text x="360.0" y="538.0" font-family="Verdana" font-size="12" style="fill:black;text-anchor:middle;"><tspan x="360.0" dy="0em">(3)</tspan></text><circle cx="160.0" cy="560.0" r="6" style="stroke:black;stroke-width:2;fill:white;"/><text x="145.0" y="545.0" font-family="Verdana" font-size="12" style="fill:black;text-anchor:end;"><tspan x="145.0" dy="0em">[1]</tspan></text><g style="stroke:black;stroke-width:2;fill:white;"><polyline points="160.0,566.0 149.608,578.0 170.392,578.0 160.0,566.0" style="stroke:black;"/></g><circle cx="160.0" cy="160.0" r="6" style="stroke:black;stroke-width:2;fill:white;"/><text x="145.0" y="145.0" font-family="Verdana" font-size="12" style="fill:black;text-anchor:end;"><tspan x="145.0" dy="0em">[2]</tspan></text><line x1="160.0" y1="160.0" x2="240.0" y2="160.0" style="stroke:red;stroke-width:3;"/><polyline points="230.0,155.0 240.0,160.0 230.0,165.0" style="stroke:red;stroke-width:3;fill:red;"/><text x="200.0" y="150.0" font-family="Verdana" font-size="12" style="fill:red;text-anchor:middle;"><tspan x="200.0" dy="0em">10.0</tspan></text><circle cx="560.0" cy="560.0" r="6" style="stroke:black;stroke-width:2;fill:white;"/><text x="545.0" y="545.0" font-family="Verdana" font-size="12" style="fill:black;text-anchor:end;"><tspan x="545.0" dy="0em">[3]</tspan></text><g style="stroke:black;stroke-width:2;fill:white;"><polyline points="560.0,566.0 549.608,578.0 570.392,578.0 560.0,566.0" style="stroke:black;"/></g><g transform="translate(650.0,710.0) scale(0.032,-0.032)"
+fill="#000000" stroke="none">
+<path d="M696 1980 c-145 -57 -208 -159 -209 -335 0 -103 27 -197 85 -291 111
+-184 268 -226 385 -103 67 71 101 210 89 369 -13 185 -72 302 -177 355 -58 30
+-106 31 -173 5z"/>
+<path d="M1302 1965 c-85 -38 -182 -155 -215 -260 -36 -112 -29 -293 14 -378
+25 -49 85 -114 120 -133 79 -40 181 -2 259 97 88 112 137 240 147 384 9 138
+-19 209 -105 269 -37 26 -54 31 -115 33 -48 2 -83 -2 -105 -12z"/>
+<path d="M145 1507 c-47 -22 -113 -103 -130 -160 -30 -102 -13 -228 51 -365
+40 -88 98 -153 167 -188 126 -65 291 -5 350 126 70 156 -60 487 -225 571 -54
+28 -168 36 -213 16z"/>
+<path d="M1693 1445 c-74 -37 -137 -111 -188 -218 -68 -144 -77 -251 -30 -363
+22 -53 42 -73 100 -100 98 -46 176 -24 271 79 130 141 190 378 126 503 -58
+112 -171 152 -279 99z"/>
+<path d="M845 1143 c-66 -23 -110 -70 -169 -181 -50 -95 -80 -123 -186 -177
+-61 -32 -164 -143 -201 -220 -31 -65 -34 -77 -34 -170 0 -87 3 -107 26 -155
+37 -79 97 -133 205 -187 82 -40 104 -47 171 -50 69 -4 92 0 191 31 63 20 131
+36 152 36 20 0 82 -14 136 -32 81 -26 116 -32 189 -32 109 0 176 21 270 89 55
+39 69 56 102 121 32 66 37 87 41 164 7 134 -13 186 -102 275 -39 39 -103 90
+-142 113 -74 45 -104 79 -187 219 -47 77 -90 115 -164 143 -80 31 -228 37
+-298 13z"/>
+</g>
+</svg>

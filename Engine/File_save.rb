@@ -83,12 +83,14 @@ class Plane_Truss
       case overwrite
       when "y", "Y"
         puts "#{$truss_name}.xml file was overwritten in Samples/#{$truss_name}."
+        load("#{$main_path}/model_draw_normal.rb")
         file.close
       when "n", "N"
         puts "File was not overwritten."
       end
     else
       puts "A new folder Samples/#{$truss_name} was created and an #{$truss_name}.xml file was written in it."
+      load("#{$main_path}/model_draw_normal.rb")
       file.close
     end
     

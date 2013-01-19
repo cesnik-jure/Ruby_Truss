@@ -43,7 +43,6 @@ until $quit == true
     load("#{$main_path}/data_input.rb")
     load("#{$main_path}/data_output.rb")
     load("#{$main_path}/file_save.rb")
-    load("#{$main_path}/model_draw_normal.rb")
         
     end
     

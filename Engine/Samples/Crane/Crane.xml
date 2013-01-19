@@ -1,0 +1,409 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<truss name="Crane">
+  <nodes nu_node="21">
+    <node id="1">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>0</coordinate_y>
+      <support_x>1</support_x>
+      <support_y>1</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="2">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>0</coordinate_y>
+      <support_x>1</support_x>
+      <support_y>1</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="3">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>4</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="4">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>4</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="5">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>8</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="6">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>8</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="7">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>12</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="8">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>12</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="9">
+      <coordinate_x>-4</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>-400</force_y>
+    </node>
+    <node id="10">
+      <coordinate_x>-4</coordinate_x>
+      <coordinate_y>20</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="11">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="12">
+      <coordinate_x>0</coordinate_x>
+      <coordinate_y>20</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="13">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="14">
+      <coordinate_x>4</coordinate_x>
+      <coordinate_y>20</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="15">
+      <coordinate_x>8</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="16">
+      <coordinate_x>6</coordinate_x>
+      <coordinate_y>19.5</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="17">
+      <coordinate_x>12</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="18">
+      <coordinate_x>10</coordinate_x>
+      <coordinate_y>18.5</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="19">
+      <coordinate_x>16</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>-200</force_y>
+    </node>
+    <node id="20">
+      <coordinate_x>14</coordinate_x>
+      <coordinate_y>17.5</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+    <node id="21">
+      <coordinate_x>20</coordinate_x>
+      <coordinate_y>16</coordinate_y>
+      <support_x>0</support_x>
+      <support_y>0</support_y>
+      <force_x>0</force_x>
+      <force_y>0</force_y>
+    </node>
+  </nodes>
+  <elements nu_el="39">
+    <element id="1">
+      <start_node>1</start_node>
+      <end_node>2</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="2">
+      <start_node>1</start_node>
+      <end_node>3</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="3">
+      <start_node>2</start_node>
+      <end_node>3</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="4">
+      <start_node>2</start_node>
+      <end_node>4</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="5">
+      <start_node>3</start_node>
+      <end_node>4</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="6">
+      <start_node>3</start_node>
+      <end_node>5</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="7">
+      <start_node>4</start_node>
+      <end_node>5</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="8">
+      <start_node>4</start_node>
+      <end_node>6</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="9">
+      <start_node>5</start_node>
+      <end_node>6</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="10">
+      <start_node>5</start_node>
+      <end_node>7</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="11">
+      <start_node>6</start_node>
+      <end_node>7</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="12">
+      <start_node>6</start_node>
+      <end_node>8</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="13">
+      <start_node>7</start_node>
+      <end_node>8</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="14">
+      <start_node>7</start_node>
+      <end_node>11</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="15">
+      <start_node>8</start_node>
+      <end_node>11</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="16">
+      <start_node>8</start_node>
+      <end_node>13</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="17">
+      <start_node>9</start_node>
+      <end_node>11</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="18">
+      <start_node>9</start_node>
+      <end_node>10</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="19">
+      <start_node>9</start_node>
+      <end_node>12</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="20">
+      <start_node>10</start_node>
+      <end_node>12</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="21">
+      <start_node>11</start_node>
+      <end_node>12</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="22">
+      <start_node>11</start_node>
+      <end_node>13</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="23">
+      <start_node>13</start_node>
+      <end_node>12</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="24">
+      <start_node>12</start_node>
+      <end_node>14</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="25">
+      <start_node>13</start_node>
+      <end_node>14</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="26">
+      <start_node>13</start_node>
+      <end_node>15</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="27">
+      <start_node>13</start_node>
+      <end_node>16</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="28">
+      <start_node>14</start_node>
+      <end_node>16</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="29">
+      <start_node>15</start_node>
+      <end_node>16</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="30">
+      <start_node>15</start_node>
+      <end_node>17</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="31">
+      <start_node>15</start_node>
+      <end_node>18</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="32">
+      <start_node>16</start_node>
+      <end_node>18</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="33">
+      <start_node>17</start_node>
+      <end_node>18</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="34">
+      <start_node>17</start_node>
+      <end_node>19</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="35">
+      <start_node>17</start_node>
+      <end_node>20</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="36">
+      <start_node>18</start_node>
+      <end_node>20</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="37">
+      <start_node>19</start_node>
+      <end_node>20</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.002</section_area>
+    </element>
+    <element id="38">
+      <start_node>19</start_node>
+      <end_node>21</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+    <element id="39">
+      <start_node>20</start_node>
+      <end_node>21</end_node>
+      <elastic_modulus>210000000.0</elastic_modulus>
+      <section_area>0.004</section_area>
+    </element>
+  </elements>
+</truss>
