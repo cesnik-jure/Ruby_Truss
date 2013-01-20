@@ -23,7 +23,8 @@ Starting Ruby Truss program. Please read the following instructions:
  ( ^.^ )      Ruby Truss, but you have to take good care of him.
   > . <       Make him a happy kitty and he'll make you a happy user
               of Ruby Truss.
-              
+
+For further questions check the README.md file in Ruby_Truss folder.
 }
 
 $quit = false
